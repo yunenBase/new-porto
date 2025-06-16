@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/yunenBase/new-porto/static/css/main.22f52fed.css",
-    "main.js": "/yunenBase/new-porto/static/js/main.570be66f.js",
-    "static/js/453.734368e1.chunk.js": "/yunenBase/new-porto/static/js/453.734368e1.chunk.js",
-    "static/media/project4.png": "/yunenBase/new-porto/static/media/project4.32ed0777ff254eb5cba6.png",
-    "static/media/project1.png": "/yunenBase/new-porto/static/media/project1.e6dacfa6d39d595c973f.png",
-    "static/media/project5.png": "/yunenBase/new-porto/static/media/project5.2a3470b9182ef91cc37d.png",
-    "static/media/bg-light.png": "/yunenBase/new-porto/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "/yunenBase/new-porto/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/ikhwan.png": "/yunenBase/new-porto/static/media/ikhwan.5d1e1c53f3114b3c5cc0.png",
-    "static/media/project3.png": "/yunenBase/new-porto/static/media/project3.f565e78d19b4c36b8801.png",
-    "static/media/project2.png": "/yunenBase/new-porto/static/media/project2.69c974ea30f951ec0ceb.png",
-    "index.html": "/yunenBase/new-porto/index.html",
-    "main.22f52fed.css.map": "/yunenBase/new-porto/static/css/main.22f52fed.css.map",
-    "main.570be66f.js.map": "/yunenBase/new-porto/static/js/main.570be66f.js.map",
-    "453.734368e1.chunk.js.map": "/yunenBase/new-porto/static/js/453.734368e1.chunk.js.map"
+    "main.css": "/new-porto/static/css/main.84519b11.css",
+    "main.js": "/new-porto/static/js/main.134ea249.js",
+    "static/js/453.734368e1.chunk.js": "/new-porto/static/js/453.734368e1.chunk.js",
+    "static/media/project4.png": "/new-porto/static/media/project4.32ed0777ff254eb5cba6.png",
+    "static/media/project1.png": "/new-porto/static/media/project1.e6dacfa6d39d595c973f.png",
+    "static/media/project5.png": "/new-porto/static/media/project5.2a3470b9182ef91cc37d.png",
+    "static/media/bg-light.png": "/new-porto/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/new-porto/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/ikhwan.png": "/new-porto/static/media/ikhwan.5d1e1c53f3114b3c5cc0.png",
+    "static/media/project3.png": "/new-porto/static/media/project3.f565e78d19b4c36b8801.png",
+    "static/media/project2.png": "/new-porto/static/media/project2.69c974ea30f951ec0ceb.png",
+    "index.html": "/new-porto/index.html",
+    "main.84519b11.css.map": "/new-porto/static/css/main.84519b11.css.map",
+    "main.134ea249.js.map": "/new-porto/static/js/main.134ea249.js.map",
+    "453.734368e1.chunk.js.map": "/new-porto/static/js/453.734368e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22f52fed.css",
-    "static/js/main.570be66f.js"
+    "static/css/main.84519b11.css",
+    "static/js/main.134ea249.js"
   ]
 }
