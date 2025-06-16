@@ -1,10 +1,10 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython, faAndroid, faTeamspeak } from '@fortawesome/free-brands-svg-icons';
+import { faAndroid} from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
-import { faCloud, faGear, faLeaf, faMobile } from "@fortawesome/free-solid-svg-icons";
+import { faCloud, faLeaf,} from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
     "Flutter",
@@ -13,7 +13,7 @@ const labelsFirst = [
     "HTML5",
     "CSS3",
     "Flask",
-    "SQL",
+    "SQL", 
     "Firebase",
     "Postman"
 ];

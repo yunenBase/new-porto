@@ -2,7 +2,7 @@
   "name": "ikhwan-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/yunenBase/new-porto",
+  "homepage": "https://yunenBase.github.io/new-porto",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.4",
