@@ -8,14 +8,14 @@ import { faCloud, faLeaf,} from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
     "Flutter",
-    "React",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "Flask",
-    "SQL", 
+    "Provider",
+    "MVCC",
+    "RESTful API",
     "Firebase",
-    "Postman"
+    "SQLite",
+    "Push & Local Notifications",
+    "Git/Github",
+    "React"
 ];
 
 const labelsSecond = [
@@ -27,6 +27,8 @@ const labelsSecond = [
     "Linux",
     "PyTorch",
     "TensorFlow",
+    "IoT",
+    "YOLO"
 ];
 
 const labelsThird = [
@@ -47,9 +49,9 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faAndroid} size="3x"/>
                     <h3>Software Development</h3>
-                    <p>Experienced in building modern mobile applications using Flutter, with solid skills in working with RESTful APIs and integrating mobile apps with various IoT devices to create smart and responsive systems.</p>
+                    <p>Developing modern mobile applications using Flutter with structured architecture (MVC/MVCC) and state management (Provider). Work with RESTful APIs, managing databases with both Firebase and local databases, implementing push and local notifications to enhance user engagement. Experienced in team collaboration using Git/GitHub (Gitflow), integrating applications with machine learning models, and connecting mobile apps with IoT/embedded devices. Also experienced developing modern website using React.js</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Tools & Technologies:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -59,9 +61,9 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faCloud} size="3x"/>
                     <h3>Cloud & Machine Learning</h3>
-                    <p>Experienced in managing cloud infrastructure on GCP and Azure, deploying and automating ML workflows with Cloud Run, and implementing YOLO-based computer vision models on edge devices like Jetson Nano.</p>
+                    <p>Managing cloud infrastructure on GCP and Azure, with experience in CI/CD pipelines, compute & storage services, and containerization with Docker. Skilled in basic Kubernetes and Infrastructure as Code (IaC), deploying applications to Cloud Run, App Engine, and Cloud Functions, and automating workflows with shell scripting. On the ML side, experienced in KNN, CNN, and YOLO-based computer vision models, and deploying them to edge devices like Jetson Nano or RaspberryPi.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Tools & Technologies:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -71,7 +73,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faLeaf} size="3x"/>
                     <h3>Leadership & Team Management</h3>
-                    <p>Proven ability to lead teams of various sizes, streamline workflows, and drive collective success through effective team coordination and goal-focused management.</p>
+                    <p>Proven ability to lead teams of various sizes, including under tight deadlines and high-pressure situations. Experienced in breaking down complex projects into manageable tasks, coordinating team workflows, and ensuring collective success. Skilled in building strategic relationships through effective diplomacy and capable of making critical decisions to drive progress in challenging circumstances.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Main Skill:</span>
                         {labelsThird.map((label, index) => (

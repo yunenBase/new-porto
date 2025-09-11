@@ -16,6 +16,26 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="June 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Gold Medal</h3>
+            <h4 className="vertical-timeline-element-subtitle">MSU IREX 19th, Malaysia</h4>
+            <li>
+              Developed a student drowsiness detection and alert system using computer vision, implemented on Jetson Nano
+            </li>
+            <li>
+              Fine-tuned and converted YOLO models to optimize and enhance acceleration object detection performance
+            </li>
+            <li>
+              Optimized CPU and CUDA GPU configurations to improve inference performance
+            </li>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Sept 2024 - Dec 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
@@ -23,7 +43,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Cloud Computing Cohort</h3>
             <h4 className="vertical-timeline-element-subtitle">Bangkit Academy</h4>
             <p>
-              CLoud Computing, Project Management, Back-End Development, Team Collaboration
+              Cloud Computing, Project Management, Back-End Development, Team Collaboration
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
