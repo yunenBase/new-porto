@@ -20,15 +20,30 @@ const projectListData: ProjectData[] = [
     thumbnail: project5,
     shortDescription: 'Built a student sleep detection system using YOLO on Jetson Nano, with real-time monitoring through a Telegram bot and an admin website.',
     detailedDescription: `
-      <h3>Fitur Utama</h3>
-      <p>Sistem ini dirancang untuk memonitor aktivitas siswa di kelas secara otomatis menggunakan teknologi Computer Vision.</p>
+      <h3>Overview</h3>
+      <p>A smart classroom monitoring system designed to detect students falling asleep during lectures using pose estimation and object detection models deployed on an edge device (NVIDIA Jetson Nano). The system captures live video through a webcam, processes it in real time, and sends instant notifications to lecturers and students once drowsiness is detected. All detection data is stored and visualized on a web-based analytics dashboard for further insights and reporting.</p>
+      <h3>Key Features</h3>
       <ul>
-        <li><strong>Deteksi Real-time:</strong> Menggunakan algoritma <strong>YOLOv5</strong> yang dioptimalkan untuk berjalan di perangkat Jetson Nano.</li>
-        <li><strong>Notifikasi Instan:</strong> Terintegrasi dengan <strong>bot Telegram</strong> untuk mengirim peringatan saat seorang siswa terdeteksi tertidur.</li>
-        <li><strong>Dashboard Admin:</strong> Sebuah website admin menampilkan log dan rekaman kejadian untuk keperluan monitoring dan evaluasi.</li>
+        <li>Real-time detection of student sleep behavior through computer vision</li>
+        <li>Instant notifications delivered to lecturers and students via Telegram</li>
+        <li>Analytics dashboard for data visualization, history tracking, and reporting</li>
+        <li>Edge AI deployment for low-latency and offline-capable inference</li>
       </ul>
-      <h3>Teknologi yang Digunakan</h3>
-      <p>Python, PyTorch, OpenCV, Jetson Nano, Telegram Bot API, React.js, Node.js.</p>
+      <h3>Tools & Technologies</h3>
+      <ul>
+        <li>NVIDIA Jetson Nano – primary edge AI computing device</li>
+        <li>Webcam – real-time input capture unit</li>
+        <li>YOLO (You Only Look Once) – object detection model for identifying students</li>
+        <li>TensorRT – model optimization and accelerated inference</li>
+        <li>OpenCV – core computer vision library for image and video processing</li>
+        <li>Firebase – real-time database for detection logs and system integration</li>
+        <li>React.js – front-end framework for analytics dashboard</li>
+        <li>Telegram Bot/Channel – real-time notification output</li>
+        <li>Python – main programming language for system development</li>
+        <li>Linux – operating system for edge deployment</li>
+      </ul>
+      <h3>Impact</h3>
+      <p>This project demonstrates the integration of Edge AI, computer vision, and real-time communication systems to solve real-world problems in education. By combining optimized deep learning models, scalable cloud services, and intuitive data visualization, the system provides lecturers with actionable insights while fostering a more interactive and attentive learning environment.</p>
     `,
     images: [project5], // Ganti dengan gambar-gambar relevan
     githubLink: 'https://github.com/your-username/sleep-monitoring'
