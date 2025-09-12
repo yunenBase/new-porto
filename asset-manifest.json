@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-porto/static/css/main.00f2f9de.css",
-    "main.js": "/new-porto/static/js/main.42e6b8ff.js",
+    "main.js": "/new-porto/static/js/main.a3189544.js",
     "static/js/453.734368e1.chunk.js": "/new-porto/static/js/453.734368e1.chunk.js",
     "static/media/project4.png": "/new-porto/static/media/project4.a1b5add12864d3e52b97.png",
     "static/media/project1.png": "/new-porto/static/media/project1.b9b64b4839412a799d92.png",
@@ -14,11 +14,11 @@
     "static/media/ikhwan-suit.png": "/new-porto/static/media/ikhwan-suit.c67542834018e86af875.png",
     "index.html": "/new-porto/index.html",
     "main.00f2f9de.css.map": "/new-porto/static/css/main.00f2f9de.css.map",
-    "main.42e6b8ff.js.map": "/new-porto/static/js/main.42e6b8ff.js.map",
+    "main.a3189544.js.map": "/new-porto/static/js/main.a3189544.js.map",
     "453.734368e1.chunk.js.map": "/new-porto/static/js/453.734368e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00f2f9de.css",
-    "static/js/main.42e6b8ff.js"
+    "static/js/main.a3189544.js"
   ]
 }
