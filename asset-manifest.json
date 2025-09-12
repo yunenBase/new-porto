@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/new-porto/static/css/main.42c0e33f.css",
-    "main.js": "/new-porto/static/js/main.2185a126.js",
+    "main.css": "/new-porto/static/css/main.00f2f9de.css",
+    "main.js": "/new-porto/static/js/main.42e6b8ff.js",
     "static/js/453.734368e1.chunk.js": "/new-porto/static/js/453.734368e1.chunk.js",
-    "static/media/project4.png": "/new-porto/static/media/project4.32ed0777ff254eb5cba6.png",
-    "static/media/project1.png": "/new-porto/static/media/project1.e6dacfa6d39d595c973f.png",
-    "static/media/project5.png": "/new-porto/static/media/project5.2a3470b9182ef91cc37d.png",
+    "static/media/project4.png": "/new-porto/static/media/project4.a1b5add12864d3e52b97.png",
+    "static/media/project1.png": "/new-porto/static/media/project1.b9b64b4839412a799d92.png",
+    "static/media/project6.png": "/new-porto/static/media/project6.05798dd11be0e698b8aa.png",
+    "static/media/project3.png": "/new-porto/static/media/project3.aab2556e830b20aae345.png",
+    "static/media/project5.png": "/new-porto/static/media/project5.c0e59c6f9ae7dc7c6805.png",
     "static/media/bg-light.png": "/new-porto/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/new-porto/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/ikhwan.png": "/new-porto/static/media/ikhwan.5d1e1c53f3114b3c5cc0.png",
-    "static/media/project3.png": "/new-porto/static/media/project3.f565e78d19b4c36b8801.png",
-    "static/media/project2.png": "/new-porto/static/media/project2.69c974ea30f951ec0ceb.png",
+    "static/media/project2.png": "/new-porto/static/media/project2.06cbb3af84bf6219a6f8.png",
+    "static/media/ikhwan-suit.png": "/new-porto/static/media/ikhwan-suit.c67542834018e86af875.png",
     "index.html": "/new-porto/index.html",
-    "main.42c0e33f.css.map": "/new-porto/static/css/main.42c0e33f.css.map",
-    "main.2185a126.js.map": "/new-porto/static/js/main.2185a126.js.map",
+    "main.00f2f9de.css.map": "/new-porto/static/css/main.00f2f9de.css.map",
+    "main.42e6b8ff.js.map": "/new-porto/static/js/main.42e6b8ff.js.map",
     "453.734368e1.chunk.js.map": "/new-porto/static/js/453.734368e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c0e33f.css",
-    "static/js/main.2185a126.js"
+    "static/css/main.00f2f9de.css",
+    "static/js/main.42e6b8ff.js"
   ]
 }
