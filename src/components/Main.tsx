@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import '../assets/styles/Main.scss';
-import ikhwanulHakim from '../assets/images/ikhwan.png';
+import ikhwanulHakim from '../assets/images/ikhwan-suit.png';
 
 function Main() {
 

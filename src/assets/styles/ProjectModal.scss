@@ -1,0 +1,136 @@
+// src/assets/styles/ProjectModal.scss
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content {
+  background-color: #181f2a;
+  border: .5px solid #21292f;
+  color: #f3f6fb;
+  box-shadow: 0 0 5px 0.5px #092336, 0 1px 1px rgba(0,0,0,0.4);
+  margin-top: auto;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 900px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  position: relative;
+  text-align: left;
+  color: #333;
+  animation: slideIn 0.3s ease-in-out;  
+  
+  h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #f3f6fb;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #888;
+    line-height: 1;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
+  .modal-images {
+    display: flex;
+    flex-direction: column;
+    // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+  }
+
+  .detailed-description {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+
+  .github-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #232b3a; // biru gelap elegan
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 12px 0 rgba(18,90,247,0.15); // subtle blue glow
+    border: 1.5px solid #125af7;
+    transition:
+        background 0.5s cubic-bezier(.4,0,.2,1),
+        box-shadow 0.5s cubic-bezier(.4,0,.2,1),
+        border-color 0.5s cubic-bezier(.4,0,.2,1),
+        color 0.5s cubic-bezier(.4,0,.2,1);
+
+    &:hover {
+      background: linear-gradient(90deg, #125af7 0%, #0a1a3a 100%);
+    color: #fff;
+    // border-color: #a407ff;
+    box-shadow: 0 4px 24px 0 #125af7, 0 2px 32px 0 rgba(18,90,247,0.25);
+    // letter-spacing: 1px;
+    }
+  }
+}
+
+// Animasi untuk modal
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes slideOut {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(-30px); opacity: 0; }
+}
+
+.modal-overlay.fade-out {
+  animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+.modal-content.slide-out {
+  animation: slideOut 0.3s ease-in-out forwards;
+}
